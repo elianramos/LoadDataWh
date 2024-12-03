@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LoadDataWh.Entities.NorthWind
+{ 
+public class VistaVentas
+    {
+    public int OrderID { get; set; }
+    public string? CustomerID { get; set; }
+    public string? CompanyName { get; set; }
+    public int EmployeeID { get; set; }
+    public string? EmployeeName { get; set; }
+    public int ShipperID { get; set; }
+    public string? ShipperCompanyName { get; set; }
+    public int? ProductID { get; set; }
+    public string? ProductName { get; set; }
+    public int ProductCount { get; set; }
+    public string? ShipCity { get; set; }
+    public DateTime? OrderDate { get; set; }
+    public int Year { get; set; }
+    public int Month { get; set; }
+    public int TotalOrders { get; set; }
+    public Decimal TotalSold { get; set; }
+
+}
+}
+
